@@ -43,7 +43,14 @@
   float: left
 }
 
-.embedImage_b0068a {
+.embedMedia_b0068a {
+
+  outline: 1px solid white;
+  overflow: hidden;
+  float: left
+}
+
+.oneByOneGrid_cda674 {
 
   outline: 1px solid white;
   overflow: hidden;
