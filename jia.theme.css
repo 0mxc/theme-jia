@@ -29,7 +29,9 @@
   --mention-background: rgb(255, 255, 255);
   --background-mentioned: rgba(255, 255, 255, 0.1);
   --scrollbar-auto-scrollbar-color-thumb: rgb(30, 30, 30);
-  --scrollbar-auto-scrollbar-color-track: rgb(50, 50, 50)
+  --scrollbar-auto-scrollbar-color-track: rgb(50, 50, 50);
+
+  --username_out_color: rgba(255, 255, 255, 0.1);
 }
 
 .chatContent_a7d72e {
@@ -48,14 +50,19 @@
 
 .embedMedia_b0068a {
 
-  outline: 1px solid white;
+  box-sizing: border-box;
+  border: 1px solid white;
   overflow: hidden;
   float: left
 }
 
-.oneByOneGrid_cda674 {
+.mosaicItem_e5c1dc {
 
-  outline: 1px solid white;
+  box-sizing: border-box;
+  border: 1px solid white;
   overflow: hidden;
   float: left
+}
+.username_f9f2ca {
+  text-shadow: -1px 0 var(--username_out_color), 0 1px var(--username_out_color), 1px 0 var(--username_out_color), 0 -1px var(--username_out_color);
 }
