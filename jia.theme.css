@@ -1,0 +1,58 @@
+
+/**
+ * @name JIA @ Javali Intelligence Agency
+ * @author mxc
+ * @description Javali.
+ * @version 0.0.1
+ */
+
+
+:root {
+  --font-primary: Monospace;
+  --font-display: Monospace;
+  --header-primary: rgb(255, 255, 255);
+  --header-secondary: rgb(200, 200, 200);
+  --background-primary: rgb(10, 10, 10);
+  --background-secondary: rgb(20, 20, 20);
+  --background-tertiary: rgb(10, 10, 10);
+  --background-floating: black;
+  --channeltextarea-background: rgb(30, 30, 30);
+  --background-secondary-alt: rgb(5, 5, 5);
+  --green-360: white;
+  --white-500: rgb(60, 60, 60);
+  --brand-500: rgb(0, 0, 0);
+  --primary-630: black;
+  --mention-foreground: rgb(0, 0, 0);
+  --mention-background: rgb(255, 255, 255);
+  --background-mentioned: rgba(255, 255, 255, 0.1);
+  --scrollbar-auto-scrollbar-color-thumb: rgb(30, 30, 30);
+  --scrollbar-auto-scrollbar-color-track: rgb(50, 50, 50)
+}
+
+.chatContent_a7d72e {
+
+  background: url('https://media.discordapp.net/attachments/1281375489419907188/1302671787200614472/javali.png?ex=6728f724&is=6727a5a4&hm=09294c8e6de15a0b93a15cd61868c05365ee5dc87c20bab03c820d58f9751a5b&=&format=webp&quality=lossless&width=1080&height=1080');
+  background-position: center center
+}
+
+.avatar_f9f2ca {
+
+  background: rgb(30, 30, 30);
+  outline: 2px solid rgb(200, 200, 200);
+  overflow: hidden;
+  float: left
+}
+
+.oneByOneGridSingle_cda674 {
+
+  outline: 1px solid white;
+  overflow: hidden;
+  float: left
+}
+
+.inlineMediaEmbed_b0068a {
+
+  outline: 1px solid white;
+  overflow: hidden;
+  float: left
+}
